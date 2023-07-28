@@ -1,0 +1,23 @@
+{
+    "name": "lions-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "watch": "nodemon",
+      "seed": "node seeders/seed.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "bcrypt": "^5.1.0",
+      "connect-session-sequelize": "^7.1.5",
+      "cors": "^2.8.5",
+      "express-session": "^1.17.3",
+      "sequelize": "^6.25.6"
+    },
+    "devDependencies": {
+    }
+  }
